@@ -1,0 +1,65 @@
+.header {
+  background-color: transparent;
+}
+
+.container {
+  padding-top: 36px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  min-width: 167px;
+  height: 37px;
+  background-image: url(../../images/logo.svg);
+}
+
+.link {
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #275553;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+  padding-right: 56px;
+}
+
+.link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.feedback_link {
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #275553;
+  border: 1px solid #275553;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px 32px;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.feedback_link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.burger_menu {
+  display: none;
+  transition: opacity 0.2s linear;
+}
+
+.burger_menu:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
