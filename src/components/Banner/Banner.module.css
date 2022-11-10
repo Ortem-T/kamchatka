@@ -1,99 +1,106 @@
 .banner {
-    max-width: 1440px;
-    height: 833px;
-    background-image: url(../../images/banner_mage.jpg);
-    ;
+  max-width: 1440px;
+  height: 833px;
+  background-image: url(../../images/banner_mage.jpg);
 }
 
 .container {
-    margin: 0 96px;
+  margin: 0 96px;
 }
 
 .content {
-    display: flex;
+  display: flex;
+  position: relative;
 }
 
 .text {
-    max-width: 620px;
+  max-width: 620px;
 
 }
 
 .title {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 25px;
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 64px;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+  color: #fff;
 }
 
 .date {
-    max-width: 481px;
-    min-height: 61px;
-    box-sizing: border-box;
-    padding: 2px 25px 3px;
-    background-image: linear-gradient(92deg, #FB8B62 6%, #F47648 90%);
-    border-radius: 16px;
-    backdrop-filter: blur(34px);
-    margin-bottom: 40px;
+  max-width: 481px;
+  min-height: 61px;
+  box-sizing: border-box;
+  padding: 2px 25px 3px;
+  background-image: linear-gradient(92deg, #FB8B62 6%, #F47648 90%);
+  border-radius: 16px;
+  backdrop-filter: blur(34px);
+  margin-bottom: 40px;
 }
 
 .date_text {
-    margin: 0;
-    padding: 0;
-    font-family: Montserrat, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 56px;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 56px;
+  color: #fff;
 }
 
 .subtitle {
-    max-width: 384px;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 18px;
-    font-family: Lato, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #fff;
+  max-width: 384px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
 }
 
 .link {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 151px;
-    font-family: Lato, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 151px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
 }
 
 .link_text {
-    margin: 0;
-    padding: 0;
-    margin-right: 18px;
+  margin: 0;
+  padding: 0;
+  margin-right: 18px;
 }
 
 .social {
-    display: flex;
-    gap: 25px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .social_link {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.banner_slider {
+  max-width: 760px;
+  position: absolute;
+  bottom: -58px;
+  right: -96px;
 }

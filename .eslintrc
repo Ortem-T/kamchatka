@@ -1,17 +1,23 @@
 {
-    "extends": "airbnb-base",
-    "settings": {
-        "import/resolver": {
-            "node": {
-                "extensions": [
-                    ".ts",
-                    ".tsx"
-                ],
-                "moduleDirectory": [
-                    "src",
-                    "node_modules"
-                ]
-            }
-        }
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ],
+        "moduleDirectory": [
+          "src",
+          "node_modules"
+        ]
+      }
     }
+  }
 }

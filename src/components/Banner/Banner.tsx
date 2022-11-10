@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
+// import MySlider from '../MySlider/MySlider';
 import styles from './Banner.module.css';
-import ArrowImg from '../../images/arrow_baner.svg'
-import facebook from '../../images/facebook.svg'
-import instagram from '../../images/instagram.svg'
+import ArrowImg from '../../images/arrow_baner.svg';
+import facebook from '../../images/facebook.svg';
+import instagram from '../../images/instagram.svg';
+import MySlider from '../MySlider/MySlider';
 
 function Banner() {
-
   return (
     <section className={styles.banner}>
       <div className={styles.container}>
@@ -18,7 +19,9 @@ function Banner() {
             <div className={styles.date}>
               <p className={styles.date_text}>23.06 - 04.07  DREAM TOUR</p>
             </div>
-            <h2 className={styles.subtitle}>Тур перевернет ваш мир с ног на голову и оставит впечатления на всю жизнь.</h2>
+            <h2 className={styles.subtitle}>
+              Тур перевернет ваш мир с ног на голову и оставит впечатления на всю жизнь.
+            </h2>
             <Link to='/' className={styles.link}>
               <p className={styles.link_text}>Расписание тура</p>
               <img className={styles.link_arrow} src={ArrowImg} alt='Ссылка на расписание' />
@@ -44,7 +47,9 @@ function Banner() {
               </li>
             </ul>
           </div>
-          <div></div>
+          <div className={styles.banner_slider}>
+            <MySlider />
+          </div>
         </div>
       </div>
     </section>

@@ -40,6 +40,14 @@
 }
 
 @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./Lato-Bold.woff2) format('woff2'),
+        url(./Lato-Bold.woff) format('woff');
+}
+
+@font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
