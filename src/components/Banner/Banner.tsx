@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
-// import MySlider from '../MySlider/MySlider';
 import styles from './Banner.module.css';
 import ArrowImg from '../../images/arrow_baner.svg';
 import facebook from '../../images/facebook.svg';
 import instagram from '../../images/instagram.svg';
-import MySlider from '../MySlider/MySlider';
+import BannerSlider from '../BannerSlider/BannerSlider';
 
 function Banner() {
   return (
@@ -48,7 +47,7 @@ function Banner() {
             </ul>
           </div>
           <div className={styles.banner_slider}>
-            <MySlider />
+            <BannerSlider />
           </div>
         </div>
       </div>
