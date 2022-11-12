@@ -6,6 +6,7 @@ import Banner from '../Banner/Banner';
 import StartJourney from '../StartJourney/StartJourney';
 import DayOne from '../DayOne/DayOne';
 import DayTwo from '../DayTwo/DayTwo';
+import Itinerary from '../Itinerary/Itinerary';
 
 function Main() {
   return (
@@ -23,6 +24,7 @@ function Main() {
       <StartJourney />
       <DayOne />
       <DayTwo />
+      <Itinerary />
     </main>
   );
 }
