@@ -1,6 +1,6 @@
 .banner {
   max-width: 1440px;
-  height: 833px;
+  min-height: 833px;
   background-image: url(../../images/banner_mage.jpg);
 }
 

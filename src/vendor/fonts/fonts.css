@@ -54,3 +54,12 @@
     src: url(./Montserrat-Bold.woff2) format('woff2'),
         url(./Montserrat-Bold.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(./Robotoblack.woff2) format('woff2'),
+        url(./Robotoblack.woff) format('woff');
+}
