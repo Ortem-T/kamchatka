@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './DayOne.module.css';
+import clouds from '../../images/clouds.png';
 import DayOneSlider from '../DayOneSlider/DayOneSlider';
 
 function DayOne() {
@@ -38,6 +39,9 @@ function DayOne() {
         <div className={styles.day_one_slider}>
           <DayOneSlider />
         </div>
+      </div>
+      <div className={styles.clouds}>
+        <img className={styles.clouds_img} src={clouds} alt='clouds' />
       </div>
     </section >
   );

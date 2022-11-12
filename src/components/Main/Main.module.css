@@ -1,6 +1,21 @@
 .main {
+    position: relative;
     max-width: 1440px;
     min-width: 320px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+.track {
+    position: absolute;
+    top: 2325px;
+    left: 25px;
+}
+
+.point1 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 2310px;
+    left: 32px;
 }

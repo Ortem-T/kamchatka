@@ -4,6 +4,7 @@
   background-image: url(../../images/dayone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .container {
@@ -57,4 +58,11 @@
   position: absolute;
   left: 641px;
   top: 164px;
+}
+
+.clouds {
+  max-width: 1861px;
+  min-height: 302px;
+  position: absolute;
+  bottom: -151px;
 }
