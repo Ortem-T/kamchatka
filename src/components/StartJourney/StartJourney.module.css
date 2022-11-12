@@ -146,11 +146,10 @@
 
 .caption {
   position: absolute;
-  max-width: 1000px;
+  max-width: 1098px;
   min-height: 239px;
   left: 340px;
   top: 610px;
-  /* overflow: hidden; */
 }
 
 .caption_text {
@@ -168,9 +167,8 @@
 
 .wing {
   position: absolute;
-  max-width: 568px;
+  max-width: 821px;
   min-height: 373px;
   left: 772px;
   top: 610px;
-  /* overflow: hidden; */
 }

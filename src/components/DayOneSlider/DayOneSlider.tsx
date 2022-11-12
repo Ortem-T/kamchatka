@@ -1,11 +1,11 @@
 import { useRef } from 'react';
 import Slider from 'react-slick';
-import styles from './BannerSlider.module.css';
+import styles from './DayOneSlider.module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import slidesData from '../../utils/slides/banner';
 
-function BannerSlider() {
+function DayOneSlider() {
   const customeSlider = useRef<Slider>(null);
 
   const settings = {
@@ -50,4 +50,4 @@ function BannerSlider() {
   );
 }
 
-export default BannerSlider;
+export default DayOneSlider;
