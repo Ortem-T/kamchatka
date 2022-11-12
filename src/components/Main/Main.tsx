@@ -5,6 +5,7 @@ import point from '../../images/point.svg';
 import Banner from '../Banner/Banner';
 import StartJourney from '../StartJourney/StartJourney';
 import DayOne from '../DayOne/DayOne';
+import DayTwo from '../DayTwo/DayTwo';
 
 function Main() {
   return (
@@ -15,9 +16,13 @@ function Main() {
       <div className={styles.point1}>
         <img className={styles.point1_img} src={point} alt='track' />
       </div>
+      <div className={styles.point2}>
+        <img className={styles.point1_img} src={point} alt='track' />
+      </div>
       <Banner />
       <StartJourney />
       <DayOne />
+      <DayTwo />
     </main>
   );
 }

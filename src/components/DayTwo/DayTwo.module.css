@@ -1,28 +1,25 @@
-.day_one {
+.day_two {
   position: relative;
   max-width: 1440px;
-  min-height: 870px;
-  background-image: url(../../images/dayone.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 978px;
   overflow: hidden;
 }
 
 .container {
   margin: 0 96px;
   position: relative;
-  display: flex;
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  padding-top: 80px;
-  max-width: 461px;
+  display: grid;
+  grid-template-columns: 766px 1fr;
+  padding-top: 102px;
   box-sizing: border-box;
 }
 
 .title {
+  grid-column: 1/4;
+  max-width: 856px;
   margin: 0;
   padding: 0;
   margin-bottom: 48px;
@@ -31,11 +28,22 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
-  color: #fff;
+  color: #212121;
 }
 
 .select_day {
   color: #f47648;
+}
+
+.text {
+  grid-row: 2/3;
+  max-width: 548px;
+}
+
+.text_further {
+  grid-row: 2/3;
+  max-width: 478px;
+  margin-top: 312px;
 }
 
 .paragraph {
@@ -45,25 +53,14 @@
   font-family: Lato, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  color: #acacac;
+  color: #313131;
 }
 
-.select_paragraph {
-  font-weight: 600;
-  color: #fff;
-}
-
-.day_one_slider {
+.vilyuchinsky {
   position: absolute;
-  left: 641px;
-  top: 164px;
-}
-
-.clouds {
-  max-width: 1861px;
-  min-height: 126px;
-  position: absolute;
-  bottom: -5px;
+  top: 0;
+  right: -96px;
+  z-index: -1;
 }

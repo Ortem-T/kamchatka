@@ -10,6 +10,7 @@
     position: absolute;
     top: 2325px;
     left: 25px;
+    z-index: 1;
 }
 
 .point1 {
@@ -18,4 +19,14 @@
     position: absolute;
     top: 2310px;
     left: 32px;
+    z-index: 1;
+}
+
+.point2 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 3202px;
+    left: 23px;
+    z-index: 1;
 }
