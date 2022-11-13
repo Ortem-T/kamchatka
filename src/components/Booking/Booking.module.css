@@ -1,0 +1,46 @@
+.booking {
+  max-width: 1440px;
+  min-height: 1400px;
+  background-image: url(../../images/fog.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.container {
+  margin: 96px 96px 0px 96px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 26px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #212121;
+}
+
+.social {
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social_link {
+  width: 26px;
+  height: 26px;
+  transition: opacity 0.2s linear;
+}
+
+.social_link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

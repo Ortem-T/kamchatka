@@ -1,0 +1,185 @@
+.price {
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+.container {
+  margin: 120px 96px 0px 96px;
+  position: relative;
+  border-bottom: 4px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  max-width: 801px;
+  margin-bottom: 110px;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 76px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #121212;
+}
+
+.price_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 70px;
+}
+
+.price_item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-top: 33px;
+  padding-bottom: 47px;
+  box-sizing: border-box;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.price_text {
+  margin: 0;
+  padding: 0;
+}
+
+.price_cost {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.price_options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price_includ {
+  max-width: 343px;
+}
+
+.includ_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 343px;
+}
+
+.includ_title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #275553;
+  position: relative;
+}
+
+.includ_title:before {
+  content: ' ';
+  position: absolute;
+  background-image: url(../../images/check_mark1.svg);
+  width: 26px;
+  height: 26px;
+  left: 0px;
+}
+
+.add_title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000;
+  position: relative;
+}
+
+.add_title:before {
+  content: ' ';
+  position: absolute;
+  background-image: url(../../images/check_mark2.svg);
+  width: 26px;
+  height: 26px;
+  left: 0px;
+}
+
+.includ_item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313131;
+}
+
+.price_links {
+  margin-top: 150px;
+}
+
+.links_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links_item {
+  margin-bottom: 24px;
+}
+
+.links_item:last-of-type {
+  padding-top: 66px;
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F47648;
+  transition: opacity 0.2s linear;
+}
+
+.link_arrow {
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.link_text {
+  margin: 0;
+  padding: 0;
+  padding-right: 25px;
+}

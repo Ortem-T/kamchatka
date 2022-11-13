@@ -10,6 +10,8 @@ import Itinerary from '../Itinerary/Itinerary';
 import DayThree from '../DayThree/DayThree';
 import Days from '../Days/Days';
 import DaysMore from '../DaysMore/DaysMore';
+import Price from '../Price/Price';
+import Booking from '../Booking/Booking';
 
 function Main() {
   return (
@@ -49,6 +51,8 @@ function Main() {
       <DayThree />
       <Days />
       <DaysMore />
+      <Price />
+      <Booking />
     </main>
   );
 }
