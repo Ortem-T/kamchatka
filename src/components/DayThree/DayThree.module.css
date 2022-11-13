@@ -1,0 +1,52 @@
+.day_three {
+  position: relative;
+  max-width: 1440px;
+  min-height: 877px;
+  overflow: hidden;
+  background-image: url(../../images/vach.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.container {
+  margin: 0 96px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  box-sizing: border-box;
+  max-width: 505px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 48px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #212121;
+}
+
+.select_day {
+  color: #f47648;
+}
+
+.paragraph {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313131;
+}

@@ -1,0 +1,137 @@
+.days_more {
+  position: relative;
+  max-width: 1440px;
+  min-height: 1700px;
+  background-image: url(../../images/day_and.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.container {
+  margin: 116px 96px 0px 96px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.day_seven {
+  display: grid;
+  grid-template-columns: 766px 1fr;
+}
+
+.day_eight {
+  align-self: center;
+  box-sizing: border-box;
+  padding-top: 240px;
+  padding-left: 200px;
+}
+
+.title {
+  grid-column: 1/4;
+  max-width: 660px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 48px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #212121;
+}
+
+.day_eight .title {
+  color: #fff;
+  max-width: 420px;
+}
+
+.select_day {
+  color: #f47648;
+}
+
+.text {
+  grid-row: 2/3;
+  max-width: 548px;
+}
+
+.text_further {
+  grid-row: 2/3;
+  max-width: 478px;
+  margin-top: 408px;
+}
+
+.paragraph {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #313131;
+}
+
+.day_eight .paragraph {
+  color: #fff;
+}
+
+.services {
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+.services_title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 31px;
+  font-family: Montserrat, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+}
+
+.services_content {
+  max-width: 481px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_name {
+  margin: 0;
+  padding: 0;
+  padding-left: 9px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.services_description {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 16px;
+  padding-right: 31px;
+  max-width: 226px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #313131;
+  opacity: 0.7;
+}
+
+.geyser {
+  position: absolute;
+  right: 0;
+  top: -42px;
+  z-index: -1;
+}
