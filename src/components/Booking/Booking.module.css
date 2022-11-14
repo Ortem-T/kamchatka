@@ -5,10 +5,11 @@
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: hidden;
+  position: relative;
 }
 
 .container {
-  margin: 96px 96px 0px 96px;
+  margin: 96px 96px 348px 96px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -35,12 +36,81 @@
 }
 
 .social_link {
-  width: 26px;
-  height: 26px;
   transition: opacity 0.2s linear;
 }
 
 .social_link:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+.memo {
+  max-width: 864px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+}
+
+.title_memo {
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.text_memo {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.form_memo {
+  display: flex;
+}
+
+.input_memo {
+  flex-grow: 1;
+  max-width: 563px;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #999;
+  background-color: transparent;
+  padding-bottom:13px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.input_memo:focus {
+  outline: none;
+  color: #fff;
+}
+
+.button_memo {
+  margin: 0;
+  padding: 0;
+  margin-left: 24px;
+  width: 134px;
+  min-height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f47648;
+  font-family: Lato, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.memo_img {
+  position: absolute;
+  bottom: 72px;
 }
